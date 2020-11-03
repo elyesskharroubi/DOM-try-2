@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nerd Store</title>
+    <script
+      src="https://kit.fontawesome.com/d5fb6ee835.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="main.js" async></script>
+  </head>
+  <body>
+    <!-- HEADER AND NAVBAR -->
+    <header>
+      <h2>Tech Stuff</h2>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Store</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="searchContainer">
+        <label for="search">Search</label>
+        <input
+          type="text"
+          id="search"
+          placeholder="What are you looking for?"
+        />
+      </div>
+    </header>
+    <!-- MAIN SECTION AKA PRODUCTS -->
+    <div class="productsContainer">
+      <div class="item">
+        <img
+          src="/img/smartphone-xiaomi-redmi-note-9-pro.jpg"
+          alt="xiami redmi note 9 pro"
+          width="320px"
+        />
+        <h4>Xaomi Redmi Note 9 Pro</h4>
+        <div>
+          <p class="price">939 TND</p>
+          <button class="buyButton">Add To Cart</button>
+          <i onclick="redHeart(this)" class="fas fa-heart"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img
+          src="/img/smartphone-huawei-y6s-2019.jpg"
+          alt="huawei y6s 2019"
+          width="320px"
+        />
+        <h4>Huawei Y6S 2019</h4>
+        <div>
+          <p class="price">469 TND</p>
+          <button class="buyButton">Add To Cart</button>
+          <i onclick="redHeart(this)" class="fas fa-heart"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img
+          src="/img/montre-connecte-huawei-band-4-rouge.jpg"
+          alt="huawei band 4"
+          width="320px"
+        />
+        <h4>Huawei Band 4</h4>
+        <div>
+          <p class="price">199 TND</p>
+          <button class="buyButton">Add To Cart</button>
+          <i onclick="redHeart(this)" class="fas fa-heart"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img
+          src="/img/smartphone-huawei-nova-7i-4g.jpg"
+          alt="huawei nova 7i"
+          width="320px"
+        />
+        <h4>Huawei Nova 7i 4G</h4>
+        <div>
+          <p class="price">999 TND</p>
+          <button class="buyButton">Add To Cart</button>
+          <i onclick="redHeart(this)" class="fas fa-heart"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img
+          src="/img/smartphone-samsung-galaxy-a21s.jpg"
+          alt="samsung galaxy a21s"
+          width="320px"
+        />
+        <h4>Samsung Galaxy A21S</h4>
+        <div>
+          <p class="price">699 TND</p>
+          <button class="buyButton">Add To Cart</button>
+          <i onclick="redHeart(this)" class="fas fa-heart"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img
+          src="/img/ecouteurs-sans-fil-energizer.jpg"
+          alt="kit sans fil"
+          width="320px"
+        />
+        <h4>Energizer Bluetooth Headphones</h4>
+        <div>
+          <p class="price">59 TND</p>
+          <button class="buyButton">Add To Cart</button>
+          <i onclick="redHeart(this)" class="fas fa-heart"></i>
+        </div>
+      </div>
+    </div>
+    <!-- SECONDARY SECTION AKA CART -->
+    <div class="cartContainer">
+      <div class="cartHeader">
+        <h4>Item Name</h4>
+        <h4>Price</h4>
+        <h4>Quantity</h4>
+      </div>
+
+      <div class="cartFooter">
+        <span></span>
+        <span>TOTAL</span>
+        <span class="totalPrice">0 DT</span>
+      </div>
+    </div>
+  </body>
+</html>
